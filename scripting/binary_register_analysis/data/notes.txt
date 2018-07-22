@@ -1,0 +1,31 @@
+If not specified, all other values are set to 0
+
+reg0
+frac: 21
+int: 139
+
+reg1:
+mod: 25
+phase: 1
+prescaler: 1
+
+reg2:
+pd_polarity: 1
+10_bit_r_count: 1
+muxout_default: 0
+noise_spur_default: 0
+
+reg3:
+12_bit_clock_divider: 150
+clk_div_mode: 0
+etc: 0
+
+reg4:
+pow_out: 3 = 5dbm
+out_enable: 1
+we want bits 22 21 20 -> 001
+
+
+
+reg5:
+ld_pin_mode: 2
